@@ -1,0 +1,19 @@
+// import styled from 'styled-components';
+
+// export const Icon = styled.i`
+// 	font-size: 14px;
+// 	margin-right: 16px;
+// `;
+import React from 'react';
+
+export default function Icon({
+	className,
+}) {
+	return (
+		<i
+			className={
+				className
+			}
+		/>
+	);
+}

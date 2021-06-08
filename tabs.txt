@@ -1,0 +1,47 @@
+WhatsApp
+https://web.whatsapp.com/
+
+Alynk
+http://localhost:3000/contacto
+
+(129) React Slider - 1 - Build An Image Slider Carousel With React Hooks - YouTube
+https://www.youtube.com/watch?v=N7W-S4JhMXY
+
+Cocos - Cocos Capital
+https://cocos.com.ar/
+
+Meraki UI Tailwind CSS Components
+https://merakiui.com/
+
+React Router: Declarative Routing for React.js
+https://reactrouter.com/web/guides/primary-components
+
+A Complete Guide to Flexbox | CSS-Tricks
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+underline left to right on hover transition - Buscar con Google
+https://www.google.com/search?q=underline+left+to+right+on+hover+transition&oq=underline+left+to+right+on+hover+transition+&aqs=chrome..69i57j33i160.10484j0j1&client=ubuntu&sourceid=chrome&ie=UTF-8
+
+css - Underline from left to right on hover in and out - Stack Overflow
+https://stackoverflow.com/questions/40242378/underline-from-left-to-right-on-hover-in-and-out
+
+Responsive Design - Tailwind CSS
+https://tailwindcss.com/docs/responsive-design#overview
+
+Resources - Tailwind CSS
+https://tailwindcss.com/resources
+
+Headless UI – Unstyled, fully accessible UI components
+https://headlessui.dev/react/menu#basic-example
+
+Heroicons
+https://heroicons.com/
+
+Tailblocks — Ready-to-use Tailwind CSS blocks
+https://tailblocks.cc/
+
+react slider tailwind - Buscar con Google
+https://www.google.com/search?client=ubuntu&hs=VeX&tbm=vid&sxsrf=ALeKk02slOJoZcYo-_m79AmjFJlWaNig3g:1623128931431&q=react+slider+tailwind&sa=X&ved=2ahUKEwi9ooe7oofxAhWxqZUCHXmjAMQQ8ccDegQIAxAD&biw=1360&bih=627
+
+How to Copy the URLs From All Open Tabs in Your Browser
+https://www.groovypost.com/howto/copy-urls-from-all-open-tabs-in-browser/

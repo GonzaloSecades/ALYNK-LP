@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@font-face {
+	font-family: 'AlynkAppFonts';
+	src: local(
+			'AlynkAppFonts'
+		)
+		url('./fonts/Inter-Regular-slnt=0.ttf')
+		format(
+			'truetype'
+		);
+	font-family: 'AlynkAppFontsBold';
+	src: local(
+			'AlynkAppFonts'
+		)
+		url('./fonts/Inter-Bold-slnt=0.ttf')
+		format(
+			'truetype'
+		);
+}
+@tailwind utilities;
+
+.underlineE {
+	display: inline;
+	position: relative;
+	overflow: hidden;
+}
+.underlineE:after {
+	content: '';
+	border-radius: 0px
+		0px 4px
+		4px;
+	position: absolute;
+	z-index: -1;
+	right: 0;
+	width: auto;
+	bottom: -6px;
+	background: #36b37e;
+	height: 2px;
+	transform-origin: left
+		center;
+	transform: scaleX(
+		0
+	);
+	transition: all
+		250ms
+		cubic-bezier(
+			0.25,
+			0.46,
+			0.45,
+			0.94
+		)
+		0s;
+	/* transition-property: width;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-out; */
+}
+.underlineE:hover:after,
+.underlineE:focus:after,
+.underlineE:active:after {
+	left: 0;
+	right: auto;
+	width: 100%;
+	transform: scaleX(
+		1
+	);
+	visibility: visible;
+	opacity: 0.998 !important;
+}
+
+.abrirCuenta {
+	padding: 8px
+		16px;
+	background-color: #f9f9f9;
+	color: #012c3d;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: -0.5px;
+	border-radius: 155px;
+	transition: all
+		0.2s
+		ease 0s;
+	/* border: 1px solid #012C3D; */
+	text-transform: uppercase;
+}
+.abrirCuenta:hover:after,
+.abrirCuenta:focus:after,
+.abrirCuenta:active:after {
+	background-color: #36b37e;
+	color: #ffffff;
+	border: 1px
+		solid
+		#f9f9f9;
+	border-color: #36b37e;
+	border-width: 1px;
+	cursor: pointer;
+}
