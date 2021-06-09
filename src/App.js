@@ -7,6 +7,7 @@ import Navbar2 from './components/Navbar/Navbar2';
 
 import UpBar from './components/Navbar/UpBar';
 import Slider from './components/Slider/Slider';
+import Promo from './components/Slider2/Promo';
 function App() {
 	return (
 		<div class='flex flex-col min-h-screen '>
@@ -14,7 +15,7 @@ function App() {
 			<Navbar2 />
 			<Switch>
 				<div class='flex-grow box-border'>
-					<Slider />
+					<Promo />
 				</div>
 			</Switch>
 			<Footer />
