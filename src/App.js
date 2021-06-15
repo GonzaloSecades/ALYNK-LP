@@ -1,7 +1,5 @@
-import {
- Switch,
- Route,
-} from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
+import aranceles from './Aranceles.pdf';
 import './App.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -10,8 +8,8 @@ import Footer from './components/Footer/Footer';
 import Navbar2 from './components/Navbar/Navbar2';
 import UpBar from './components/Navbar/UpBar';
 import Slider from './components/Slider3/Slider';
-import Download from './components/Slider3/Download';
 import Productos from './components/Productos/Productos';
+import Aranceles from './components/Aranceles/Aranceles';
 
 function App() {
  return (
@@ -20,25 +18,13 @@ function App() {
    <Navbar2 />
    <Switch>
     <div class='flex-grow mb-20'>
-     <Route
-      exact
-      path='/'
-      component={
-       Slider
-      }
-     />
-     <Route
-      path='/productos'
-      component={
-       Productos
-      }
-     />
-     <Route
-      path='/contacto'
-      component={
-       Contacto
-      }
-     />
+     <Route exact path='/' component={Slider} />
+     <Route path='/productos' component={Productos} />
+     <Route path='/contacto' component={Contacto} />
+     <Route path='/aranceles'>
+      <Aranceles pdf={aranceles} />
+     </Route>
+
      {/* <Slider /> */}
      {/* <Download /> */}
     </div>
