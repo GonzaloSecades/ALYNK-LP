@@ -4,7 +4,7 @@ import Icon from '../Icons'
 
 function UpBar() {
  return (
-  <div className='bg-alynkWebBlue text-white flex flex-row justify-between p-2.5'>
+  <div className='bg-alynkWebBlue text-white flex flex-row justify-between p-2.5 '>
     <span className='ml-1 hover:text-alynkSecondary'>
      <Icon className='fas fa-phone-square-alt' />
      {' '}
